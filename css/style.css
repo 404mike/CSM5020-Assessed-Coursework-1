@@ -266,6 +266,17 @@ h3{
   display: block;
 }
 
+blockquote {
+  font-style: italic;
+  padding: 10px;
+  margin-left: 30px;
+  font-size: 0.9em;
+  line-height: 1em;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #f9f9f9;
+}
+
 /* https://bootsnipp.com/snippets/4O9nR */
 .breadcrumb{
   width: 35%;

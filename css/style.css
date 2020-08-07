@@ -206,7 +206,7 @@ nav ul li a:hover{
 }
 
 #content ul li {
-  list-style-type: circle;
+  list-style: circle;
   margin-left: 1em;
 }
 
@@ -259,6 +259,7 @@ h3{
 .cv-links ul li{
   float: right;
   clear: both;
+  list-style: none !important;
 }
 
 .cv-links ul li a{

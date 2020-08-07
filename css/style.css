@@ -205,6 +205,11 @@ nav ul li a:hover{
   color:#168ebb;
 }
 
+#content ul li {
+  list-style-type: circle;
+  margin-left: 1em;
+}
+
 .site_css{
   display: block;
   color:#168ebb;

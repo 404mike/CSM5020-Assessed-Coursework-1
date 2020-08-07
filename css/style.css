@@ -166,6 +166,10 @@ nav ul li a:hover{
   border-bottom: 4px solid #ffffff;
 }
 
+.row.home_links {
+  text-align: center;
+}
+
 .header_info{
   margin: 10px 0;
 }

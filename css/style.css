@@ -268,7 +268,7 @@ h3{
 
 /* https://bootsnipp.com/snippets/4O9nR */
 .breadcrumb{
-  width: 30%;
+  width: 35%;
 }
 ol.breadcrumb-arrow > li > a{
   color:#fff !important;
@@ -380,6 +380,17 @@ ol.breadcrumb-arrow > li > a{
   width: 67%;
 }
 
+.top{
+  float: right;
+  margin-right: 1em;
+  cursor: pointer;
+}
+
+.top img {
+  width: 1.7em;
+  top: 8px;
+  position: relative;
+}
 footer {
   padding: 10px;
   width: 100%;

@@ -432,15 +432,15 @@ footer {
   }
 
   #header_home {
-    background-image: url('../images/IMG_20200531_125553.jpg');
+    background-image: url('../images/mobile/IMG_20200531_125553.jpg');
   }
   
   #header_CSM5020{
-    background-image: url('../images/row-3_box_1_568x490.png');
+    background-image: url('../images/mobile/row-3_box_1_568x490.png');
   }
   
   #header_about {
-    background-image: url('../images/mario-gogh-VBLHICVh-lI-unsplash.jpg');
+    background-image: url('../images/mobile/mario-gogh-VBLHICVh-lI-unsplash.jpg');
   }
 
 }

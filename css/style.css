@@ -276,58 +276,43 @@ blockquote {
   background-color: #f9f9f9;
 }
 
-/* https://bootsnipp.com/snippets/4O9nR */
-.breadcrumb{
-  width: 35%;
-}
-ol.breadcrumb-arrow > li > a{
-  color:#fff !important;
-}
-.breadcrumb-arrow {
+.breadcrumb {
   height: 36px;
+  width: 35%;
   padding: 0;
   line-height: 36px;
   list-style: none;
   background-color: #e6e9ed
 }
-.breadcrumb-arrow li:first-child a {
-  border-radius: 4px 0 0 4px;
-  -webkit-border-radius: 4px 0 0 4px;
-  -moz-border-radius: 4px 0 0 4px;
+
+ol.breadcrumb > li > a{
+  color:#fff !important;
 }
-.breadcrumb-arrow li, .breadcrumb-arrow li a, .breadcrumb-arrow li span {
+
+.breadcrumb li, .breadcrumb li a, .breadcrumb li span {
   display: inline-block;
   vertical-align: top
 }
-.breadcrumb-arrow li:not(:first-child) {
-  margin-left: -5px
-}
-.breadcrumb-arrow li+li:before {
-  padding: 0;
-  content: ""
-}
-.breadcrumb-arrow li span {
-  padding: 0 10px
-}
-.breadcrumb-arrow li a, .breadcrumb-arrow li:not(:first-child) span {
+
+.breadcrumb li a, .breadcrumb li:not(:first-child) span {
   height: 36px;
   padding: 0 10px 0 25px;
   line-height: 36px
 }
-.breadcrumb-arrow li:first-child a {
-  padding: 0 10px
-}
-.breadcrumb-arrow li a {
+
+.breadcrumb li a {
   position: relative;
   color: #fff;
   text-decoration: none;
   background-color: #3bafda;
   border: 1px solid #3bafda
 }
-.breadcrumb-arrow li:first-child a {
+
+.breadcrumb li:first-child a {
   padding-left: 10px
 }
-.breadcrumb-arrow li a:after, .breadcrumb-arrow li a:before {
+
+.breadcrumb li a:after, .breadcrumb li a:before {
   position: absolute;
   top: -1px;
   width: 0;
@@ -336,33 +321,31 @@ ol.breadcrumb-arrow > li > a{
   border-top: 18px solid transparent;
   border-bottom: 18px solid transparent
 }
-.breadcrumb-arrow li a:before {
+
+.breadcrumb li a:before {
   right: -10px;
   z-index: 3;
   border-left-color: #3bafda;
   border-left-style: solid;
   border-left-width: 11px
 }
-.breadcrumb-arrow li a:after {
+
+.breadcrumb li a:after {
   right: -11px;
   z-index: 2;
   border-left: 11px solid #2494be
 }
-.breadcrumb-arrow li a:focus, .breadcrumb-arrow li a:hover {
+
+.breadcrumb li a:focus, .breadcrumb li a:hover {
   background-color: #4fc1e9;
   border: 1px solid #4fc1e9
 }
-.breadcrumb-arrow li a:focus:before, .breadcrumb-arrow li a:hover:before {
+
+.breadcrumb li a:focus:before, .breadcrumb li a:hover:before {
   border-left-color: #4fc1e9
 }
-.breadcrumb-arrow li a:active {
-  background-color: #2494be;
-  border: 1px solid #2494be
-}
-.breadcrumb-arrow li a:active:after, .breadcrumb-arrow li a:active:before {
-  border-left-color: #2494be
-}
-.breadcrumb-arrow li span {
+
+.breadcrumb li span {
   color: #434a54
 }
 
@@ -446,6 +429,18 @@ footer {
 
   #main_cv_details .cv-links ul li{
     float: none;
+  }
+
+  #header_home {
+    background-image: url('../images/IMG_20200531_125553.jpg');
+  }
+  
+  #header_CSM5020{
+    background-image: url('../images/row-3_box_1_568x490.png');
+  }
+  
+  #header_about {
+    background-image: url('../images/mario-gogh-VBLHICVh-lI-unsplash.jpg');
   }
 
 }

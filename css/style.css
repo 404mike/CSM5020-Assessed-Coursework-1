@@ -278,7 +278,7 @@ blockquote {
 
 .breadcrumb {
   height: 36px;
-  width: 35%;
+  width: 13em;
   padding: 0;
   line-height: 36px;
   list-style: none;
@@ -400,7 +400,29 @@ footer {
 @media only screen and (min-width: 768px) {
   /* tablets and desktop */
   nav ul li{
-    font-size: 2.2em;
+    font-size: 1.9em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* tablets and desktop */
+  #image_header{
+    margin: 0 auto;
+    width: 15em;
+    text-align: center;
+    position: revert;
+  }
+
+  nav {
+    float: none;
+    padding: 23px 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  nav > ul {
+    margin: 0 auto;
+    display: table;
   }
 }
 

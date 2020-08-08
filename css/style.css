@@ -373,7 +373,7 @@ ol.breadcrumb-arrow > li > a{
 }
 
 .home_links h1 {
-  font-size: 1.6em;
+  font-size: 1.4em;
 }
 
 .skills_container{
@@ -469,7 +469,7 @@ footer {
   .home_links > .col-6 > a > img {
     width: 100%;
     object-fit: cover;
-    height: 10em;
+    height: 8em;
   }
 
   #header_info_name{
@@ -523,7 +523,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 450px) {
   #main_cv_details .col-6{
     width: 100%;
     text-align: center;
